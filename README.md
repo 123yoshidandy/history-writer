@@ -1,5 +1,7 @@
 # History Writer
 
+https://123yoshidandy.github.io/history-writer/
+
 ## 背景
 
 - これまでの出来事を年表としてGoogleスプレッドシートに記録している
