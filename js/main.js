@@ -34,7 +34,7 @@ async function onSubmit() {
 }
 
 function addEvent(date, category, event) {
-    let url = "https://script.google.com/macros/s/AKfycbyUTm7xSliKvWCNt4uPOhE9WAN8XL47akztX5k_zK2MjA1druCEsezOzcAOCMqGdnnO/exec";
+    let url = "https://script.google.com/macros/s/AKfycby0KbvKhWnUpKJUYqxkSZZLsZbRFPdi2GHO39iAoJ56EJ2zmVqqL4vGwlqVQ70wddDT/exec";
     url = url + "?mode=" + mode + "&date=" + date + "&category=" + category + "&event=" + event
     return fetch(url, { mode: "no-cors" }).then(response => {});
 }
