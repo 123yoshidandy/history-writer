@@ -1,22 +1,19 @@
 # History Writer
 
 https://123yoshidandy.github.io/history-writer/
+https://script.google.com/home/projects/1k7bqAttfNsSZy7Fj2yhKE8WopQYS-HqFnWnTbaKSa624EtclGyXmvZwL
 
 ## 背景
 
 - これまでの出来事を年表としてGoogleスプレッドシートに記録している
 - 見るには便利だが、記録のためにいちいちスプレッドシートを開くのは面倒なので、記録用アプリを作る。
 
-## 実現方式
+## アーキテクチャ
 
-- 候補
-  - Webアプリ
-    - 無難。
-  - ネイティブアプリ（iPhone用）
-    - 面倒くさそう。
-  - LINE App
-    - よさげ。しかし知見がない。
-- ということで、まずはWebアプリとして作る。
+- フロントエンド
+  - GitHub Pages
+- バックエンド
+  - Google Apps Script
 
 ## 余談
 
