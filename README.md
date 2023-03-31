@@ -1,7 +1,7 @@
 # History Writer
 
-https://123yoshidandy.github.io/history-writer/
-https://script.google.com/home/projects/1k7bqAttfNsSZy7Fj2yhKE8WopQYS-HqFnWnTbaKSa624EtclGyXmvZwL
+- https://123yoshidandy.github.io/history-writer/
+- https://script.google.com/home/projects/1k7bqAttfNsSZy7Fj2yhKE8WopQYS-HqFnWnTbaKSa624EtclGyXmvZwL
 
 ## 背景
 
