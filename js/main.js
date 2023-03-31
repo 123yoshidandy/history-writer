@@ -18,6 +18,13 @@ async function init() {
         document.getElementById("title").textContent = "History Writer for Kazuki";
     }
     console.log("mode: " + mode);
+
+    let today = new Date();
+    today.setDate(today.getDate());
+    let yyyy = today.getFullYear();
+    let mm = ("0" + (today.getMonth() + 1)).slice(-2);
+    let dd = ("0" + today.getDate()).slice(-2);
+    document.getElementById("date").value = yyyy + "-" + mm + "-" + dd;
 }
 
 async function onSubmit() {
