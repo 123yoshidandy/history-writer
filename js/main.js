@@ -13,9 +13,11 @@ async function init() {
     } else if (param.search("mayuka") != -1) {
         mode = "mayuka";
         document.getElementById("title").textContent = "History Writer for MayuKazuki";
+        document.getElementById("person").remove();
     } else {
         mode = "kazuki";
         document.getElementById("title").textContent = "History Writer for Kazuki";
+        document.getElementById("person").remove();
     }
     console.log("mode: " + mode);
 
@@ -36,12 +38,15 @@ async function onSubmit() {
     console.log("category: " + category);
     console.log("event: " + event);
 
-    await addEvent(date, category, event);
-    location.reload();
-}
+    let url = "https://script.google.com/macros/s/AKfycbyRyasLpu1bt_UTHXds_ZKcuJFkdFDHo7MdmH6G7W466Ov3THvsg3RFMqAj3IoVLgSX/exec";
+    url = url + "?mode=" + mode + "&date=" + date + "&category=" + category + "&event=" + event;
+    if (mode == "family") {
+        let person = document.getElementById("person").value;
+        console.log("person: " + person);
+        url = url + "&person=" + person;
+    }
+    console.log("url: " + url);
 
-function addEvent(date, category, event) {
-    let url = "https://script.google.com/macros/s/AKfycby0KbvKhWnUpKJUYqxkSZZLsZbRFPdi2GHO39iAoJ56EJ2zmVqqL4vGwlqVQ70wddDT/exec";
-    url = url + "?mode=" + mode + "&date=" + date + "&category=" + category + "&event=" + event
-    return fetch(url, { mode: "no-cors" }).then(response => {});
+    await fetch(url, { mode: "no-cors" }).then(response => {});
+    location.reload();
 }
