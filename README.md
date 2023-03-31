@@ -1,7 +1,8 @@
 # History Writer
 
 - https://123yoshidandy.github.io/history-writer/
-- https://script.google.com/home/projects/1k7bqAttfNsSZy7Fj2yhKE8WopQYS-HqFnWnTbaKSa624EtclGyXmvZwL
+- https://123yoshidandy.github.io/history-writer?mode=mayukazuki
+- https://123yoshidandy.github.io/history-writer?mode=family
 
 ## 背景
 
@@ -14,6 +15,7 @@
   - GitHub Pages
 - バックエンド
   - Google Apps Script
+    - https://script.google.com/home/projects/1k7bqAttfNsSZy7Fj2yhKE8WopQYS-HqFnWnTbaKSa624EtclGyXmvZwL
 
 ## 余談
 
